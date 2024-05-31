@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest list</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
+
+  <body>
+    <div id="header" class="header"></div>
+
+    <!-- Main Section -->
+    <div>
+      <div class="main-content">
+        <div class="container">
+          <div class="content-area">
+            <div class="guest-list-section">
+              <div class="main-title">
+                <h1>Zouk Nightclub Guest list</h1>
+              </div>
+              <div class="title-image-container text-center">
+                <img
+                  src="./assets/images/Zouk-Nightclub-Guest-List-Image.jpg"
+                  alt="title"
+                  class="title-image"
+                >
+              </div>
+              <div id="guest-list" class="guest-list-section text-center">
+                <div class="text-center">
+                  <h1>Get On The Zouk Nightclub Guest List For Free</h1>
+                </div>
+                <div class="joined-group-number-section">
+                  <div class="joined-group-number-board">
+                    4,059 GROUPS HAVE JOINED OUR ZOUK GUEST LIST IN THE LAST 30
+                    DAYS
+                  </div>
+                </div>
+                <div class="announcement-section">
+                  <strong>NIGHTS OPEN: Thursday, Friday, Saturday</strong>
+                  <br>
+                  <strong>LOCATION: Resorts World Hotel</strong>
+                </div>
+                <div class="sign-up-form-container">
+                  <h4>Guest List Sign Up Ends at 11pm</h4>
+                  <form class="form-container" id="guestlistSignupForm"></form>
+                </div>
+                <div class="free-service-label">
+                  This is a completely free service. We never charge for our
+                  guest lists.
+                </div>
+              </div>
+            </div>
+
+            <div class="service-section">
+              <img
+                src="./assets/images/Zouk-Nightclub-Table-Service.jpg"
+                alt="title"
+                class="title-image"
+              >
+              <div class="service-description-section">
+                <div class="service-item-layout">
+                  <h2>Does Zouk Have A Guest List?</h2>
+                  <h4>
+                    Yes! No Cover Nightclubs does have a guest list for Zouk Las
+                    Vegas. Joining our guest list is simple and free. Easily
+                    sign up using our website. You will be provided with all
+                    information and instructions.
+                  </h4>
+                </div>
+                <div class="service-item-layout">
+                  <h2>How Much Is Zouk Nightclub Cover Charge?</h2>
+                  <table id="priceTable">
+                    <tr>
+                      <th class="charge">Cover Charge</th>
+                      <th class="price">Price</th>
+                    </tr>
+                  </table>
+                  <div class="charge-description">
+                    <h4>
+                      Cover charge is common at Zouk Nightclub at the entrance.
+                      Men typically pay between $50 and $100 dollars and women
+                      between $30 and $75. For holiday events and special
+                      performances the cost for cover charge may increase.
+                      Groups obtain the following using our
+                      <a href="#guest-list" class="link-text">Zouk guest list</a
+                      >:
+                    </h4>
+                    <ul class="note-list">
+                      <li>Women are free</li>
+                      <li>Men are free</li>
+                      <li>
+                        Please see the upcoming
+                        <a href="#" class="link-text">Zouk guest list rules</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="service-item-layout">
+                  <h2>Where Is The Guest List Entrance?</h2>
+                  <h4>
+                    The guest list check in for Zouk is located on the right
+                    side of the club entrance. Look for signage to help with
+                    directions once near the club.
+                  </h4>
+                </div>
+                <div class="service-item-layout">
+                  <h2>Is The Zouk Guest List Free?</h2>
+                  <div class="free-guest-description-container">
+                    <h4>
+                      Yes! We never charge money to join and use our Zouk guest
+                      list. That is the way it has always been, and the way it
+                      will always be.
+                    </h4>
+                    <h4>
+                      General information about the club venue can be found on
+                      the
+                      <a href="#" class="link-text">Zouk Nightclub Page</a>.
+                    </h4>
+                  </div>
+                </div>
+                <div class="service-item-layout">
+                  <h2>Zouk Guest List Events</h2>
+                  <div id="list-events"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rocket -->
+    <div id="rocket" class="rocket-container">
+      <svg
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-arrow-up-circle rocket-icon"
+      >
+        <circle cx="12" cy="12" r="10"></circle>
+        <polyline points="16 12 12 8 8 12"></polyline>
+        <line x1="12" y1="16" x2="12" y2="8"></line>
+      </svg>
+    </div>
+
+    <script src="./assets/header.js"></script>
+    <script src="./assets/script.js"></script>
+    <script src="./assets/rocket.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init({
+          publicKey: "2698vpCsMWE_SPQVw",
+        });
+      })();
+    </script>
+    <script src="./assets/emailjs-settings.js"></script>
+  </body>
+</html>
